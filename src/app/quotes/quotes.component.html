@@ -1,17 +1,19 @@
-<p>quotes works!</p>
-<div>
-    <h1>My quotes</h1>
-    <ol>
-      <li *ngFor='let quote of quotes'>
-      <p>{{quote.author}}</p>
-      <p>{{quote.state}}</p>
-      <p>{{quote.user}}</p>
-      <p>{{quote.day}}</p>
-      <p>{{quote.upvotes}}</p>
-      <p>{{quote.downvotes}}</p>
-      </li>
-    </ol>
-      
-  </div>
+<div class="jumbotron">
 
-  
+    <h1>My quotes</h1>
+    <div *ngFor='let quote of quotes'>
+
+        <div class="quotes">
+            <p>{{quote.id}}.  {{quote.author}}</p>
+            <p> {{quote.state}}</p>
+            <p> {{quote.user}}</p>
+            <p> {{quote.day}}</p>
+            <button type="button" class="btn btn-info">Upvote</button>
+            <button type="button" class="btn btn-info">Downvote</button>
+            <button type="button" class="btn btn-info">DElete quote</button>
+            <!-- <p> {{quote.upvotes}}</p>
+            <p> {{quote.downvotes}}</p> -->
+        </div>
+
+    </div>
+</div>
