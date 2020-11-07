@@ -7,12 +7,10 @@ import { Quote } from '../quote';
   styleUrls: ['./quote-detail.component.css']
 })
 export class QuoteDetailComponent implements OnInit {
-  // quoteDelete(complete:boolean){
-  //   this.isComplete.emit(complete);
-  // }
-  constructor() { } 
+
+  constructor() { }
 
   ngOnInit(): void {
-  } 
+  }
 
 }
