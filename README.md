@@ -1,27 +1,24 @@
-# Quotes
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Author
+Lucy Wangeci Karimi
+# QUOTES
+#### Description.
+A web application  for the user to imput new quotes and also have control to delete the quote,like or dislike it.The author of the quote and also the one who posted it is displayed.One can easily tell the time the quote was posted.
+## Setup/Installation Requirements
+* To run my page on your browser,
+* Git clone the live link to your terminal.
+* Open Documents and open Portfolio with Vs code
+* Render the page to your browser by live server
+## Known Bugs
+  The code runs smoothly but feel free to report any bugs experienced as you go through it.
+## Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* Typescript
+## Support and contact details
+* luciahkei101@gmail.com
+* twitter@luciahkei101
+* fb@Luciah Karimi
+### License
+ licensed under [MIT license](LICENSE)
