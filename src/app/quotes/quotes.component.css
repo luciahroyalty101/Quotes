@@ -1,7 +1,14 @@
 .quotes {
-  background-color: rgb(196, 227, 255);
+  background-color:aqua;
 }
 
 h1 {
   text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  color:blue;
+}
+
+#quotes {
+  align-content: flex-end;
 }
